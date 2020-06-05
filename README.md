@@ -11,6 +11,30 @@ execute sql statement is func
 
 https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver15
 
+* Embeded SQL
+
+
+B. 建立內嵌資料表值函式
+
+下列範例會傳回 AdventureWorks2012 資料庫中的內嵌資料表值函式。 它會傳回三個資料行：ProductID、Name，以及年初至今銷售到商店之每項產品的總計彙總 YTD Total (依商店區分)。
+SQL
+
+
+        CREATE FUNCTION Sales.ufn_SalesByStore (@storeid int)
+        RETURNS TABLE
+        AS
+        RETURN
+        (
+            SELECT P.ProductID, P.Name, SUM(SD.LineTotal) AS 'Total'
+            FROM Production.Product AS P
+            JOIN Sales.SalesOrderDetail AS SD ON SD.ProductID = P.ProductID
+            JOIN Sales.SalesOrderHeader AS SH ON SH.SalesOrderID = SD.SalesOrderID
+            JOIN Sales.Customer AS C ON SH.CustomerID = C.CustomerID
+            WHERE C.StoreID = @storeid
+            GROUP BY P.ProductID, P.Name
+        );
+        GO
+
 * Script
 
     DELIMITER $$

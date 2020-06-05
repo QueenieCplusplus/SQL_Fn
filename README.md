@@ -7,6 +7,10 @@ call fun in usp
 
 https://www.mysqltutorial.org/mysql-stored-function/
 
+execute sql statement is func
+
+https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver15
+
 * Script
 
     DELIMITER $$

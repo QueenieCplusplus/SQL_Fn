@@ -13,6 +13,8 @@ https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-function-transact-s
 
 * Embeded SQL
 
+https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver15 (func returns table)
+
 
 B. 建立內嵌資料表值函式
 

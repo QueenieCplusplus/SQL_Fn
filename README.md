@@ -7,6 +7,10 @@ https://stackoverflow.com/questions/14356694/mysql-function-call
 
 * IPC
 
+mySQL fun cant return table
+
+https://stackoverflow.com/questions/23421771/how-to-return-table-from-mysql-function/23421816
+
 call fun in usp
 
 https://www.mysqltutorial.org/mysql-stored-function/

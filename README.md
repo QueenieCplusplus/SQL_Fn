@@ -1,17 +1,28 @@
 # SQL_Fn
 資料庫函數
 
+
+
 * cmd for func
 
 https://stackoverflow.com/questions/14356694/mysql-function-call
 
 * IPC
 
-mySQL fun cant return table
+mySQL fun can not return table, but only string
 
-https://stackoverflow.com/questions/23421771/how-to-return-table-from-mysql-function/23421816
+https://stackoverflow.com/questions/23421771/how-to-return-table-from-mysql-function/23421816 (invalid way)
 
-call fun in usp
+* Can Not call usp from Fn
+
+https://stackoverflow.com/questions/6344880/execute-stored-procedure-from-a-function
+
+* Can call usp from usp
+
+https://stackoverflow.com/questions/11000802/calling-a-stored-procedure-in-a-stored-procedure-in-mysql
+
+
+* call fun in usp
 
 https://www.mysqltutorial.org/mysql-stored-function/
 

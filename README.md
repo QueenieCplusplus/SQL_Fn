@@ -1,13 +1,17 @@
 # SQL_Fn
 資料庫函數
 
+* cmd for func
+
+https://stackoverflow.com/questions/14356694/mysql-function-call
+
 * IPC
 
 call fun in usp
 
 https://www.mysqltutorial.org/mysql-stored-function/
 
-execute sql statement is func
+* execute sql statement is func
 
 https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver15
 

@@ -26,7 +26,7 @@ https://stackoverflow.com/questions/11000802/calling-a-stored-procedure-in-a-sto
 
 https://www.mysqltutorial.org/mysql-stored-function/
 
-* execute sql statement is func
+* can execute sql statement in SQL, but not in MySQL
 
 https://docs.microsoft.com/zh-tw/sql/t-sql/statements/create-function-transact-sql?view=sql-server-ver15
 
